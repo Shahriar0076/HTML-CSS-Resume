@@ -1,0 +1,74 @@
+/* Your CSS styles go here */
+*{}
+body{}
+
+.contact {}
+#res {
+    font-size: 45px;
+    color: #293794;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact p{}
+
+.contact .image{
+    text-align: center;
+}
+.contact .image img{}
+.info h1{
+    font-size: 20px;
+    color: #eb008c;
+    margin: 0px;
+}
+.info{text-align: center;}
+.info h2{
+    font-size: 20px;
+    color: #eb008c;
+    margin: 0px;
+}
+.info h3{
+    font-size: 20px;
+    color: #eb008c;
+    margin: 0px;
+}
+.sitelink {
+    font-size: 20px;
+    color: #eb008c;
+    margin: 0px;
+}
+.sitelink a{
+    font-size: 20px;
+    color: green;
+    margin: 0px;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #f1f1c1;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+.education {}
+.education h1 {
+    color: #293794;
+}
+.education ul {}
+.education ul li {
+    color: #eb008c;
+}
+
+.myform h1{}
+
+
+@media only screen and (max-width: 550px) {
+
+.myform h1{    font-size: 30px;}
+
+}
+
